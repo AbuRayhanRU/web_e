@@ -1,0 +1,31 @@
+================================================================================
+                    CSE 3132 QUICK EXAM MEMORY SHEET
+================================================================================
+1. SETUP:
+   npm create adonisjs@latest Project_managment
+   cd Project_managment
+   node ace generate:key
+
+2. GENERATE:
+   node ace add @adonisjs/lucid
+   node ace make:migration product{ edit database}
+   node ace migration:run
+   node ace make:model product
+   node ace make:factory product{edit product factory}
+
+
+   node ace make:seeder User
+
+   at seeder {await ProductFactory.createMany(30)}
+
+
+   node ace db:seed
+
+   node ace make:controller product -run
+   {edit controller file}
+
+   {set up routes}
+
+   { make frontend pages}
+
+   run
